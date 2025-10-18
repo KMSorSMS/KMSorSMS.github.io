@@ -7,16 +7,15 @@ first_name: Liam
 middle_name:
 last_name: Yuan
 contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+  email me if you have any questions or suggestions!
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Welcome to my personal website! I am Liam Yuan, a passionate researcher in the field of Machine Learning Systems and High-Performance Computing. Here, you can find my latest research projects, publications, and blog posts. Feel free to explore and connect with me!
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: ML-SYS, Computer System, HPC, Life # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: ❤️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://KMSorSMS.github.io # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -86,8 +85,8 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: al-folio # blog_name will be displayed in your blog page
-blog_description: a simple whitespace theme for academics
+blog_name: liamY's blog # blog_name will be displayed in your blog page
+blog_description: Research & Life
 permalink: /blog/:year/:title/
 lsi: false # produce an index for related posts
 
@@ -123,12 +122,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
 external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
+  - name: 
+    rss_url: 
+  - name:
     posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+      - url: 
+        published_date: 
 
 # -----------------------------------------------------------------------------
 # Newsletter
