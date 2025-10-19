@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://madsys.cs.tsinghua.edu.cn/'>Affiliations</a>. Address. Contacts. Motto. Etc.
+# subtitle: <a href='https://madsys.cs.tsinghua.edu.cn/'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
@@ -27,7 +27,7 @@ latest_posts:
 ---
 
 
-Hi, I’m Ziwei (Liam) Yuan. I am an undergraduate in Software Engineering at the University of Electronic Science and Technology of China (2022–2026) and an incoming Ph.D. student in Computer Science at Tsinghua University (from 2026). I am fortunate to be advised by Prof. [Mingxing Zhang](https://madsys.cs.tsinghua.edu.cn/author/mingxing-zhang/). My work lies at the intersection of machine learning system and high‑performance computing, with a focus on heterogeneous inference for cutting edge models, compiler/operator‑level optimization, and distributed systems.
+Hi, I’m Ziwei (Liam) Yuan. I am an undergraduate in Software Engineering at the University of Electronic Science and Technology of China (2022–2026) and an incoming Ph.D. student in Computer Science at Tsinghua University (from 2026). I am fortunate to be advised by Prof. [Mingxing Zhang](https://madsys.cs.tsinghua.edu.cn/author/mingxing-zhang/) in [Madsys team](https://madsys.cs.tsinghua.edu.cn/). My work lies at the intersection of machine learning system and high‑performance computing, with a focus on heterogeneous inference for cutting edge models, compiler/operator‑level optimization, and distributed systems.
 
 Currently, I contribute to KTransformers, an open‑source library for efficient Transformer inference on CPU/GPU. My work centers on heterogeneous operator optimization, KV‑cache management, and load balancing to improve throughput while maintaining low latency. [Repository](https://github.com/kvcache-ai/ktransformers)
 
@@ -43,5 +43,4 @@ Currently, I contribute to KTransformers, an open‑source library for efficient
 - Programming: C/C++, Rust, Arm assemble, Python, Go
 
 ## Links
-- GitHub: https://github.com/KMSorSMS
-- Based in Chengdu and Beijing
+- [GitHub](https://github.com/KMSorSMS)

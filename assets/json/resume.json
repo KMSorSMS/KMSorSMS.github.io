@@ -1,154 +1,63 @@
 {
   "basics": {
-    "name": "Yuan ZiWei",
-    "label": "Scientist",
-    "image": "",
+    "name": "Ziwei Yuan",
+    "label": "Researcher",
     "email": "yzwliam@126.com",
-    "phone": "",
     "url": "https://KMSorSMS.github.io/",
-    "summary": "A",
-    "location": {
-      // "address": "",
-      // "postalCode": "CA 94115",
-      "city": "Peking | Chengdu",
-      "countryCode": "China"
-      // "region": "California"
-    }
-    // "profiles": [
-    //   {
-    //     "network": "Twitter",
-    //     "username": "AlbertEinstein",
-    //     "url": "https://twitter.com/AlbertEinstein"
-    //   }
-    // ]
+    "location": { "city": "Beijing / Chengdu", "countryCode": "CN" }
   },
   "work": [
     {
-      "name": "Ktransformers",
+      "name": "KTransformers",
       "position": "Heterogeneous Operators Developer",
       "url": "https://github.com/kvcache-ai/ktransformers",
-      "startDate": "2025-01",
-      "endDate": "on going...",
-      "summary": "Developing high-performance heterogeneous operators for Ktransformers, an open-source library for efficient transformer models.",
+      "startDate": "2025-01-01",
+      "summary": "Developing high-performance heterogeneous operators for efficient Transformer inference."
     }
   ],
-  // "volunteer": [
-  //   {
-  //     "organization": "People's Climate March",
-  //     "location": "Zurich, Switzerland",
-  //     "position": "Lead Organizer",
-  //     "url": "https://example.com",
-  //     "startDate": "2014-04-01",
-  //     "endDate": "2015-07-01",
-  //     "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-  //     "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
-  //   }
-  // ],
   "education": [
     {
-      "institution": "University of Electronic Science and Technology of China (UESTC)",
-      "location": "Chengdu, China",
-      "url": "https://www.uestc.edu.cn/",
+      "institution": "UESTC",
       "area": "Software Engineering",
-      "studyType": "undergraduate student",
+      "studyType": "Undergraduate",
       "startDate": "2022-09-01",
-      "endDate": "2026-06-30"
+      "endDate": "2026-06-30",
+      "location": "Chengdu, China",
+      "url": "https://sise.uestc.edu.cn/"
     },
     {
-      "institution": "Tsinghua University (THU)",
-      "location": "Beijing, China",
-      "url": "https://www.tsinghua.edu.cn/",
+      "institution": "Tsinghua University",
       "area": "Computer Science",
-      "studyType": "PHD",
-      "startDate": "2026-09-01"
+      "studyType": "PhD (incoming)",
+      "startDate": "2026-09-01",
+      "location": "Beijing, China",
+      "url": "https://www.cs.tsinghua.edu.cn/"
     }
-
   ],
   "awards": [
-    {
-      "title": "National Scholarship",
-      "date": "2023"
-    },
-    {
-      "title": "National Scholarship",
-      "date": "2024"
-    },
-    {
-      "title": "tencent scholarship",
-      "date": "2024"
-    }
+    { "title": "National Scholarship", "date": "2023" },
+    { "title": "National Scholarship", "date": "2024" },
+    { "title": "Tencent Scholarship", "date": "2024" }
   ],
-  // "certificates": [
-
-  // ],
   "publications": [
     {
       "name": "KTransformers: Unleashing the Full Potential of CPU/GPU Hybrid Inference for MoE Models",
-      "publisher": "SOSP '25 (ACM SIGOPS 31st Symposium on Operating Systems Principles)",
+      "publisher": "SOSP '25",
       "releaseDate": "2025-10-12",
       "url": "https://doi.org/10.1145/3731569.3764843",
-      "summary": "We introduce KTransformers, a CPU/GPU hybrid inference system designed for Mixture-of-Experts (MoE) models; via heterogeneous operator optimization, KV-cache management, and load balancing, it significantly boosts throughput while maintaining low latency"
+      "summary": "CPU/GPU hybrid inference for MoE with operator optimizations, KV-cache management, and load balancing."
     }
   ],
   "skills": [
     {
-      "name": "ML-SYS",
-      "keywords": [
-        "quantization",
-        "intrinsics optimization",
-        "kernel fusion",
-        "sparse operation optimization"
-      ]
+      "name": "ML-Sys",
+      "keywords": ["quantization", "intrinsics optimization", "kernel fusion", "sparse operator optimization"]
     }
   ],
   "languages": [
-    {
-      "language": "C++/C",
-      "fluency": "familiar with"
-    },
-    {
-      "language": "rust",
-      "fluency": "familiar with"
-    },
-    {
-      "language": "python",
-      "fluency": "aware of"
-    },
-    {
-      "language": "go",
-      "fluency": "aware of"
-    }
-  ],
-  "interests": [
-    {
-      "name": "ML-SYS/HPC",
-      "keywords": [
-        "system optimization",
-        "compiler optimization",
-        "distributed system",
-        "high performance computing"
-      ]
-    }
-  ],
-  // "references": [
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-laptop",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   },
-  //   {
-  //     "name": "Professor John Doe",
-  //     "icon": "fa-solid fa-thumbtack",
-  //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-  //   }
-  // ],
-  "projects": [
-    {
-      "name": "Ktransformers",
-      "summary": "Ktransformers is a novel approach to optimizing transformer models for efficient inference on hybrid CPU/GPU architectures.",
-      "highlights": ["Heterogeneous Operator Optimization", "KV-Cache Management", "Load Balancing Strategies"],
-      "startDate": "2025-01 (join)",
-      "url": "https://github.com/kvcache-ai/ktransformers"
-    }
+    { "language": "C/C++", "fluency": "familiar with" },
+    { "language": "Rust", "fluency": "familiar with" },
+    { "language": "Python", "fluency": "aware of" },
+    { "language": "Go", "fluency": "aware of" }
   ]
 }
